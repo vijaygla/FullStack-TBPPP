@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    background-color: azure;
+}
+
+.header {
+    height: 10%;
+    background-color: red;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+}
+
+.main {
+    height: 75%;
+    display: flex;
+}
+
+.leftdiv {
+    width: 20%;
+    border: 2 px solid gray;
+    background-color: aqua;
+}
+
+
+.centrediv {
+    width: 80%;
+    margin-left: 10px;
+    background-color: yellow;
+
+}
+
+
+.rightdiv {
+    width: 20%;
+    background-color: blue;
+    margin-left: 10px;
+}
+
+.footer {
+    height: 10%;
+    background-color: rgb(50, 247, 6);
+    margin-top: 10px;
+}
+
